@@ -36,6 +36,7 @@ button {
 button:hover {
     background-color: rgb(38, 104, 228);
     color: #fff;
+    border: none;
 }
 
 #message {
