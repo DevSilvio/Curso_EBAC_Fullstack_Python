@@ -1,48 +1,15 @@
-<h1>Formulário HTML</h1>
-<h2>Validação JavaScript</h2>
+## Formulário HTML com validação JavaScript
 
-<form id="formulario">
-            <input type="number" id="campoA" required placeholder="Campo A">
-            <input type="number" id="campoB" required placeholder="Campo B">
-            <button type="submit" id="validar">Validar</button>
-        </form>
+### Atividade: Curso EBAC.
+#### 1) Crie um formulário HTML que possua dois campos numéricos:
+#### 2) Insira um botão para submeter o formulário
+#### 3) Crie uma validação no JavaScript, na qual o formulário será válido caso o número B seja maior que o número A.
+#### 4) Exiba uma mensagem positiva para o usuário quando o formulário for válido e uma mensagem negativa quando for inválido.
+#### O formulário possui as seguintes validações:
+- campo B maior que A
+- campo A maior que B
+- campos iguais
+#### Para cada situação existe resposta diferente.
 
-<style>
-    * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 
-.container {
-    max-width: 650px;
-    width: 50%;
-    margin: 20vh auto;
-}
-
-h1,h2 {
-    margin-bottom: 5px;
-}
-
-form {
-    margin-top: 12px;
-}
-
-input, button {
-    display: block;
-    margin-bottom: 8px;
-    padding: 8px;
-    width: 30%;
-}
-
-button {
-    background-color: rgb(101, 151, 245);
-    border: none;
-}
-
-button:hover {
-    background-color: rgb(38, 104, 228);
-    color: #fff;
-    border: none;
-}
-</style>
+<img src="./formulario.png" alt="formulario html com validadeção js">

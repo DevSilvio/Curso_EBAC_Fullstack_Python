@@ -8,9 +8,12 @@ document.getElementById('formulario').addEventListener('submit', function(e){
     if (campoB > campoA){
         message.textContent = "formulário valido B é maior que A";
         message.style.display = "block"
-    }else {
+    }else if (campoA > campoB){
         message.textContent = "formulário invalido A é maior que B"
         message.style.color = "red"
+        message.style.display = "block"
+    } else {
+        message.textContent = "campo A e campo B são: iguais"
         message.style.display = "block"
     }
 })
