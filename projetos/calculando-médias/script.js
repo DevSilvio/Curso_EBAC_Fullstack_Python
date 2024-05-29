@@ -31,7 +31,7 @@ function adicionaLinha(){
     linha += `<td>${inputNomeAtividade.value}</td>`;
     linha += `<td>${inputNotaAtividade.value}</td>`;
     linha += `<td>${inputNotaAtividade.value >= notaMinima ? imgAprovado : imgReprovado}</td>`; // isso é igual a IF e ELSE!
-    linha += `</tr>`
+    linha += '</tr>'
 
     linhas += linha;
     }
@@ -59,6 +59,6 @@ function atualizarMediaFinal(){
     const mediaFinal = calculaMediaFinal();
 
     document.getElementById('media-final-valor').innerHTML = mediaFinal.toFixed(2);
-    document.getElementById('media-final-resultado').innerHTML = mediaFinal >=notaMinima ? spanAprovado : spanReprovado;
+    document.getElementById('media-final-resultado').innerHTML = mediaFinal >= notaMinima ? spanAprovado : spanReprovado;
 
 }
